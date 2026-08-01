@@ -46,3 +46,6 @@ coverage/
 # Symbols / obfuscation
 app.*.symbols
 app.*.map.json
+
+# Firebase
+**/google-services.json
