@@ -34,3 +34,7 @@ jobs:
 
       - name: Run tests
         run: dart run melos run test
+
+      - name: Build Android
+        working-directory: app
+        run: flutter build apk --debug
