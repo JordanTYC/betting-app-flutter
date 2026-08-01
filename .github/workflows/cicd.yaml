@@ -30,17 +30,7 @@ jobs:
         run: flutter pub get
 
       - name: Analyze
-        run: flutter analyze
+        run: dart run melos run analyze
 
       - name: Run tests
-        run: |
-          for test_dir in $(find . -type d -name test); do
-            if find "$test_dir" -type f -name "*_test.dart" | grep -q .; then
-              package_dir=$(dirname "$test_dir")
-              echo "Running tests in $package_dir"
-
-              cd "$package_dir"
-              flutter test
-              cd -
-            fi
-          done
+        run: dart run melos run test

@@ -10,3 +10,10 @@ dev_dependencies:
 workspace:
   - app
   - packages/**
+
+scripts:
+  analyze:
+    run: flutter analyze
+
+  test:
+    run: flutter test
