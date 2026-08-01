@@ -1,0 +1,12 @@
+name: my_bets
+publish_to: 'none'
+version: 0.0.1
+resolution: workspace
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+
+flutter:
+  uses-material-design: true

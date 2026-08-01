@@ -1,0 +1,12 @@
+name: demo_betclic
+publish_to: 'none'
+
+environment:
+  sdk: ^3.12.2
+
+dev_dependencies:
+  melos: ^8.1.0
+
+workspace:
+  - app
+  - packages/**

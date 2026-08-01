@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "342666694009",
+    "project_id": "fir-betclic",
+    "storage_bucket": "fir-betclic.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342666694009:android:e0a3609df6c6454fe0f3a8",
+        "android_client_info": {
+          "package_name": "com.example.demo_betclic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI80sCav4FDn7pMIKu9wv1DSI0PiT9CXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+name: app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+resolution: workspace
+
+environment:
+  sdk: ^3.12.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.0
+  riverpod_annotation: ^2.3.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  go_router: ^17.3.0
+  fixtures:
+    path: ../packages/features/fixtures
+  explore:
+    path: ../packages/features/explore
+  live:
+    path: ../packages/features/live
+  my_bets:
+    path: ../packages/features/my_bets
+  games:
+    path: ../packages/features/games
+  shared_ui:
+    path: ../packages/shared_ui
+  styles:
+    path: ../packages/styles
+  rive: ^0.14.10
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  riverpod_generator: ^2.6.5
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+  fonts:
+    - family: Betclic
+      fonts:
+        - asset: assets/fonts/Betclic-BoldItalic.ttf
+          weight: 700
+
+        - asset: assets/fonts/BetClic-Regular.ttf
+          weight: 400
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-ExtraBoldItalic.ttf
+          weight: 700
+
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400

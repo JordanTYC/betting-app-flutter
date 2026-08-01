@@ -1,0 +1,113 @@
+[
+    {
+        "id": "match_1",
+        "competition": "Coupe du Monde 2026",
+        "round": "Seizième de finale",
+        "kickoffAt": "2026-07-02T20:00:00Z",
+        "team1": "France",
+        "team2": "Suède",
+        "team1Score": 0,
+        "team2Score": 0,
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fir-betclic.firebasestorage.app/o/france_team.webp?alt=media&token=312c1ea9-f992-47f3-8e83-dd2b7ae3b911",
+        "alternativeImageUrl": "https://firebasestorage.googleapis.com/v0/b/fir-betclic.firebasestorage.app/o/france_team_1.webp?alt=media&token=3f216efb-7f68-4a8f-845c-ef0490c8ec6d",
+        "status": "scheduled",
+        "sport": "football",
+        "betMarkets": [
+            {
+                "id": "1x2",
+                "name": "Match Result",
+                "odds": [
+                    {
+                        "id": "match_1_odd_1",
+                        "label": "France",
+                        "value": 1.26
+                    },
+                    {
+                        "id": "match_1_odd_2",
+                        "label": "Nul",
+                        "value": 6.40
+                    },
+                    {
+                        "id": "match_1_odd_3",
+                        "label": "Suède",
+                        "value": 13.00
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "match_2",
+        "competition": "Coupe du Monde 2026",
+        "round": "Seizième de finale",
+        "kickoffAt": "2026-07-02T23:00:00Z",
+        "team1": "Norvège",
+        "team2": "Côte d'Ivoire",
+        "team1Score": 0,
+        "team2Score": 0,
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fir-betclic.firebasestorage.app/o/norway_team.jpg?alt=media&token=7a0284bf-b705-4c5d-8bd2-8d18871e8ef0",
+        "alternativeImageUrl": "https://firebasestorage.googleapis.com/v0/b/fir-betclic.firebasestorage.app/o/norway_team_1.webp?alt=media&token=1bc88870-32f3-49f5-b54f-33140e9e2e55",
+        "status": "scheduled",
+        "sport": "football",
+        "betMarkets": [
+            {
+                "id": "1x2",
+                "name": "Match Result",
+                "odds": [
+                    {
+                        "id": "match_2_odd_1",
+                        "label": "Norvège",
+                        "value": 2.10
+                    },
+                    {
+                        "id": "match_2_odd_2",
+                        "label": "Nul",
+                        "value": 3.40
+                    },
+                    {
+                        "id": "match_2_odd_3",
+                        "label": "Côte d'Ivoire",
+                        "value": 3.40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "match_3",
+        "competition": "Coupe du Monde 2026",
+        "round": "Seizième de finale",
+        "kickoffAt": "2026-07-02T03:00:00Z",
+        "team1": "Mexique",
+        "team2": "Équateur",
+        "team1Score": 0,
+        "team2Score": 0,
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fir-betclic.firebasestorage.app/o/mexico_team.jpg?alt=media&token=f83234c6-3f0c-43d2-9e79-8caa745c7be7",
+        "alternativeImageUrl": "https://firebasestorage.googleapis.com/v0/b/fir-betclic.firebasestorage.app/o/mexico_team_1.webp?alt=media&token=caf08021-953b-48c5-a4ba-1b39defefac5",
+        "status": "scheduled",
+        "sport": "football",
+        "betMarkets": [
+            {
+                "id": "1x2",
+                "name": "Match Result",
+                "odds": [
+                    {
+                        "id": "match_3_odd_1",
+                        "label": "Mexique",
+                        "value": 2.10
+                    },
+                    {
+                        "id": "match_3_odd_2",
+                        "label": "Nul",
+                        "value": 3.00
+                    },
+                    {
+                        "id": "match_3_odd_3",
+                        "label": "Équateur",
+                        "value": 3.80
+                    }
+                ]
+            }
+        ]
+    }
+]
