@@ -4,7 +4,10 @@ on:
   push:
     branches:
       - main
+
   pull_request:
+    branches:
+      - main
 
 jobs:
   flutter_test:
@@ -12,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -19,6 +23,8 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.44.4'
+          channel: stable
+          cache: true
 
       - name: Install dependencies
         run: flutter pub get
@@ -27,4 +33,11 @@ jobs:
         run: flutter analyze
 
       - name: Run tests
-        run: flutter test
+        run: |
+          find . -type f -name "*_test.dart" | while read test; do
+            package=$(dirname "$(dirname "$test")")
+            echo "Running tests in $package"
+            cd "$package"
+            flutter test
+            cd -
+          done
