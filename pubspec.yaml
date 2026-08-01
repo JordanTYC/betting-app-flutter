@@ -15,6 +15,8 @@ melos:
   scripts:
     analyze:
       run: flutter analyze
+      exec: true
 
     test:
       run: flutter test
+      exec: true
