@@ -14,9 +14,7 @@ workspace:
 melos:
   scripts:
     analyze:
-      run: flutter analyze
-      exec: true
+      exec: flutter analyze
 
     test:
-      run: flutter test
-      exec: true
+      exec: flutter test
