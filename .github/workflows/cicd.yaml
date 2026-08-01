@@ -37,7 +37,9 @@ jobs:
           find . -type f -name "*_test.dart" | while read test; do
             package=$(dirname "$(dirname "$test")")
             echo "Running tests in $package"
-            cd "$package"
-            flutter test
-            cd -
+
+            (
+              cd "$package"
+              flutter test
+            )
           done
