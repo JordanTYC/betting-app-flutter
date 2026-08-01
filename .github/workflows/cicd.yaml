@@ -34,12 +34,13 @@ jobs:
 
       - name: Run tests
         run: |
-          find . -type f -name "*_test.dart" | while read test; do
-            package=$(dirname "$(dirname "$test")")
-            echo "Running tests in $package"
+          for test_dir in $(find . -type d -name test); do
+            if find "$test_dir" -type f -name "*_test.dart" | grep -q .; then
+              package_dir=$(dirname "$test_dir")
+              echo "Running tests in $package_dir"
 
-            (
-              cd "$package"
+              cd "$package_dir"
               flutter test
-            )
+              cd -
+            fi
           done
