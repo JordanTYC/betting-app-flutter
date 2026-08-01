@@ -11,9 +11,10 @@ workspace:
   - app
   - packages/**
 
-scripts:
-  analyze:
-    run: flutter analyze
+melos:
+  scripts:
+    analyze:
+      run: flutter analyze
 
-  test:
-    run: flutter test
+    test:
+      run: flutter test
